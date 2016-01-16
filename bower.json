@@ -1,0 +1,24 @@
+{
+  "name": "Angular Project",
+  "homepage": "https://github.com/sravya92/project",
+  "authors": [
+    "prashanth <prashanth212reddy@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-bootstrap": "~1.0.3",
+    "angular-ui-router": "~0.2.15"
+  }
+}
