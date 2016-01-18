@@ -1,71 +1,53 @@
-<div style=" margin:0 auto">
-    <div class="large-4 columns">
-        <div class="row">
-            <div class="small-12 medium-12 small-centered columns">
 
-                <div class="weather">
+    <!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="angularPractice" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="angularPractice" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="angularPractice" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="angularPractice" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Authentication App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/foundation/css/foundation.css">
+  <link rel="stylesheet" href="app.css">
+  
+</head>
+<body>
+ <div class="container">
+     
+         
+             <h1>Authentication</h1>
+             <hr>
+         
+     
+     
+ </div>
+  <a href="#/registration" type="button" class="button large" ng-click="showAddForm()">Registration</a>
+        <a href="#/login" type="button" class="button large" ng-click="showLoginForm()" >Login</a>
 
-                    <header class="header">
-                        <h2>Upcoming Events</h2>
-                        <div class="weather-icon-shadow">
-                            <span class="icon-sun"></span>
-                        </div>
-                        <div class="weather-icon">
-                            <span class="icon-sun"></span>
-                        </div>
-                    </header>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
 
-                    <article>
 
-                        <ul>
-                            <li class="day">
-                        <span class="image">
-                          <img src="http://placehold.it/50x50/f2f2f2" alt="" />
-                        </span>
-                                <span class="day-title">AUG. 17, WED</span><br />
-                                <span class="temp">Lorem Ipsum Et Fun Funk</span>
-                                <div class="day-icon">
-                                    <span class="icon-sun"></span>
-                                </div>
-                            </li>
+  
 
-                            <li class="day">
-                        <span class="image">
-                          <img src="http://placehold.it/50x50/f2f2f2" alt="" />
-                        </span>
-                                <span class="day-title">AUG. 19, FRI</span><br />
-                                <span class="temp">Lorem Ipsum Et Fun Funk</span>
-                                <div class="day-icon">
-                                    <span class="icon-sun"></span>
-                                </div>
-                            </li>
-                            <li class="day">
-                        <span class="image">
-                          <img src="http://placehold.it/50x50/f2f2f2" alt="" />
-                        </span>
-                                <span class="day-title">AUG. 24, WED</span><br />
-                                <span class="temp">Lorem Ipsum Et Fun Funk</span>
-                                <div class="day-icon">
-                                    <span class="icon-sun"></span>
-                                </div>
-                            </li>
-                            <li class="day">
-                        <span class="image">
-                          <img src="http://placehold.it/50x50/f2f2f2" alt="" />
-                        </span>
-                                <span class="day-title">OCT. 19, THURS</span><br />
-                                <span class="temp">Lorem Ipsum Et Fun Funk</span>
-                                <div class="day-icon">
-                                    <span class="icon-sun"></span>
-                                </div>
-                            </li>
-                        </ul>
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/foundation/js/foundation.js"></script>
+  <script src="bower_components/firebase/firebase.js"></script>
+  <script src="bower_components/angularfire/dist/angularfire.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="login/login-ctrl.js"></script>
+  <script src="registration/registration-ctrl.js"></script>
+  
+  
+</body>
+</html>
 
-                    </article>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>

@@ -11,12 +11,14 @@ angular
         templateUrl: "login/login.tmpl.html",
         controller: 'LoginCtrl'
       })
-      .state('register', {
-        url: "/register",
-        templateUrl: "register/register.tmpl.html"
+      .state('registration', {
+        url: "/registration",
+        templateUrl: "registration/registration.html",
+        controller:'RegCtrl'
       })
       .state('welcome', {
         url: "/welcome",
-        templateUrl: "home/home.tmpl.html"
+        templateUrl: "home/home.tmpl.html",
+        
       })
   });
